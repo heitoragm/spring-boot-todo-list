@@ -1,0 +1,36 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Todolist",
+    "dateExported": "2023-10-10T05:55:27.976Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "7dce8e06-6199-431c-b15a-017a6be9ca44",
+            "name": "Users",
+            "containerId": "",
+            "created": "2023-10-10T05:54:21.591Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "0a9ed58c-991e-487f-a952-50dc53464966",
+            "colId": "d7ee1b99-c18f-4de4-83b4-327c3c1cec24",
+            "containerId": "7dce8e06-6199-431c-b15a-017a6be9ca44",
+            "name": "Create",
+            "url": "http://localhost:8080/users/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-10T05:54:44.826Z",
+            "modified": "2023-10-10T05:55:02.722Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"oi\",\n  \"username\": \"aqui\",\n  \"password\": \"laele\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
